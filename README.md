@@ -141,6 +141,13 @@ mvn clean package -DskipTests
 mvn clean package
 java -jar target/integration-rest-soap-gateway-0.0.1-SNAPSHOT.jar
 ```
+## Ejecución con Docker
+
+### Construir imagen
+```bash
+mvn clean package
+docker build -t integration-rest-soap-gateway .
+```
 
 ## Licencia
 

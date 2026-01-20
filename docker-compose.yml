@@ -1,0 +1,6 @@
+services:
+  integration-gateway:
+    build: .
+    image: integration-rest-soap-gateway
+    ports:
+      - "8080:8080"
